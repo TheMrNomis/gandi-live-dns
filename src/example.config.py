@@ -23,6 +23,9 @@ api_endpoint = 'https://dns.api.gandi.net/api/v5'
 #your domain with the subdomains in the zone file/UUID 
 domain = 'mydomain.tld'
 
+#record type: 'A' for ipv4, 'AAAA' for ipv6
+record_type = 'A'
+
 #enter all subdomains to be updated, subdomains must already exist to be updated
 subdomains = ["subdomain1", "subdomain2", "subdomain3"]
 
